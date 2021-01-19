@@ -1,6 +1,10 @@
 import React from 'react';
 import '../../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import email_logo from "../../images/mail-1454731_640.png";
+import tel_logo from "../../images/phone-1439839_640.png";
+
+
 
 
 
@@ -12,7 +16,7 @@ function Jumbotron(props){
 
                  <div class="col-6 card ">
 					
-					<a href = {"tel:"+props.tel} class="ml-auto mr-auto mt-4"><img src="images/phone-1439839_640.png" width="100" /></a>
+					<a href = {"tel:"+props.tel} class="ml-auto mr-auto mt-4"><img src={tel_logo} width="100" /></a>
 
 					<div class="card-body">
 						<h6 class="text-center mt-1">Tel. Number</h6>
@@ -23,7 +27,7 @@ function Jumbotron(props){
 
                 <div class="col-6 card">
 					
-					<a href={"mailto:"+props.email}  class="ml-auto mr-auto mt-4"><img src="images/mail-1454731_640.png" width="100" alt ="email" /></a>
+					<a href={"mailto:"+props.email}  class="ml-auto mr-auto mt-4"><img src={email_logo} width="100" alt ="email" /></a>
 					
 				  <div class="card-body">
 						<h6 class="text-center mt-1">Email</h6>
