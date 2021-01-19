@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Left_text_bar(){
     return(
-        <div class = "col-md-6 pl-5 pr-5 mt-5" >
+        <div className = "col-md-6 pl-5 pr-5 mt-5" >
 				<p align="justify">
 				    Welcome to my website. My name is Rafael Dardagiannopoulos and I am a web developer and security engineer.
                      I created this page using different programming languages. Some of them are CSS, JavaScript, HTML, PHP and SQL.
