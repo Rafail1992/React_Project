@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Right_text_bar(){
     return(
-        <div class = "col-md-6 pl-5 pr-5 mt-5" >
+        <div className = "col-md-6 pl-5 pr-5 mt-5" >
 				
 				<p align="justify">
 					As I mentioned before, this page will help you simulate some XSS attacks and SQL injections.
