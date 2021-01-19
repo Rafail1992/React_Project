@@ -70,7 +70,7 @@ function Carousel(){
     return(
         <div className="col-12 p-2 w-10">
             <div id="myCarousel" className="carousel slide" dat-ride="carousel">
-                <p>{window_width}</p>
+                
 
                 <ul className="carousel-indicators">
 
