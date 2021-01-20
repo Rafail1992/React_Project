@@ -140,3 +140,10 @@ background-color: burlywood;
 .card{
   box-shadow: 10px 10px 10px black;
 }
+
+#login_jumbo{
+ margin-top: -65px;
+}
+#login_page{
+  margin-top: -65px;
+}
