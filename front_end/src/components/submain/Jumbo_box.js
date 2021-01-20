@@ -10,7 +10,7 @@ import tel_logo from "../../images/phone-1439839_640.png";
 
 function Jumbotron(props){
     return(
-        <div class="jumbotron col-md-6">
+        <div class="jumbotron col-md-6 ">
 			<h2 id = "contact_page"class="text-center">CONTACT</h2>
             <div class="row mt-5">
 
